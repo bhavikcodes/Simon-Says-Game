@@ -1,0 +1,59 @@
+*{
+    background-color: pink;
+}
+h1{
+    font-size: 3.5rem;
+    text-align: center;
+    color: crimson;
+    font-family: "Barriecito", system-ui;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    letter-spacing: 3px;
+}
+h4{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color:chocolate;
+    font-family: "Barriecito", system-ui;
+    letter-spacing: 3px;
+    margin: 25px auto;
+}
+.box{
+    display: flex;
+    border-radius: 30px;
+    border: 0px solid black; 
+    height: 30rem;
+    width:  30rem;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color:rgb(245, 202, 209); */
+}
+.pad{
+    border: 9px solid black;
+    border-radius:30px ;
+    height: 12rem ;
+    width: 12rem;
+    margin: 10px;
+}
+#r{
+    background-color: #d95980;
+    opacity: 1;
+}
+#g{
+    background-color: #63aac0;
+    opacity: 1;
+}
+#y{
+    background-color: #f99b45;
+    opacity: 1;
+}
+#p{
+    background-color: #8f9ff9;
+    opacity: 1;
+}
+.flash{
+    background-color: white;
+}
